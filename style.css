@@ -1,0 +1,46 @@
+#navbar {
+    display: flex;
+    min-width: 181px;
+    margin: 15px 10px 5px 15px;
+}
+
+
+#apps-icon {
+    background-image: url('./google-apps-icon.png');
+    height: 30px;
+    width: 30px;
+    padding-left: 15px;
+    margin-right: -10px;
+    background-repeat: no-repeat;
+}
+
+#account-icon {
+    background-image: url('./account-icon.png');
+    height: 30px;
+    width: 30px;
+    padding-left: 10px;
+    
+}
+
+
+#nav-left {
+    display: flex;
+    justify-content: flex-start;
+}
+
+
+#nav-right {
+    display: flex;
+    margin-left: auto;
+    align-items: center;
+}
+
+
+a {
+    color: rgba(0,0,0,0.87);
+    text-decoration: none;
+    font-family: arial, sans-serif;
+    font-size: 13px;
+    margin: 5px;
+    padding: 5px;
+}
