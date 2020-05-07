@@ -9,7 +9,6 @@
     background-image: url('./google-apps-icon.png');
     height: 30px;
     width: 30px;
-    padding-left: 15px;
     margin-right: -10px;
     background-repeat: no-repeat;
 }
@@ -19,13 +18,15 @@
     height: 30px;
     width: 30px;
     padding-left: 10px;
-    
+    padding-bottom: 5px;
+    margin:auto;
 }
 
 
 #nav-left {
     display: flex;
     justify-content: flex-start;
+    align-items: center;
 }
 
 
@@ -36,11 +37,76 @@
 }
 
 
+
 a {
     color: rgba(0,0,0,0.87);
     text-decoration: none;
     font-family: arial, sans-serif;
     font-size: 13px;
-    margin: 5px;
-    padding: 5px;
+    margin: 0px 5px 0px 5px;
+    padding: 0px 5px 0px 5px;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.center {
+    margin: auto;
+    width: 50%;
+    text-align: center;
+    padding: 0px 0px 10px 0px;
+}
+
+.center > img {
+    padding-top: 250px;
+}
+
+button {
+    background-color: #f2f2f2;
+    border: 1px solid #f2f2f2;
+    border-radius: 4px;
+    color: #5f6368;
+    font-family: arial, sans-serif;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0px 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+}
+
+button:hover {
+    box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+    background-image: -webkit-linear-gradient(top,#f8f8f8,#f1f1f1);   
+    background-color: #f8f8f8;
+    border: 1px solid #c6c6c6;
+    color: #222; 
+}
+
+input {
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    border: 1px solid #dfe1e5;
+    box-shadow: none;
+    border-radius: 24px;
+    height: 44px;
+    margin: 0 auto;
+    width: 582px;
+    font: 16px arial, sans-serif;
+    padding: 10px;    
+}
+
+input:focus{
+    outline: transparent;
+    outline-offset: -2px;
+    box-shadow: 0 1px 6px 0 rgba(32,33,36,0.28);
+    border-color:rgba(223,225,229,0);
+}
+
+input:hover {
+    box-shadow: 0 1px 6px 0 rgba(32,33,36,0.28);
+    border-color:rgba(223,225,229,0);
 }
